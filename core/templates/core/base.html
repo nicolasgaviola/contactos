@@ -61,7 +61,7 @@
                 <!-- Logo -->
                 <!-- ============================================================== -->
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="{% url 'home' %}">
                         <!-- Logo icon --><b>
                             <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
                             <!-- Dark Logo icon -->
@@ -88,7 +88,6 @@
                                 href="javascript:void(0)"><i class="ti-menu"></i></a> </li>
                         <li class="nav-item"> <a class="nav-link sidebartoggler hidden-sm-down waves-effect waves-dark"
                                 href="javascript:void(0)"><i class="ti-menu"></i></a> </li>
-
                     </ul>
                     <!-- ============================================================== -->
                     <!-- User profile and search -->
@@ -295,10 +294,7 @@
                         <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i
                                     class="fa fa-address-book"></i><span class="hide-menu">Contactos </span></a>
                             <ul aria-expanded="false" class="collapse">
-                                <li><a href="index.html">Minimal </a></li>
-                                <li><a href="index2.html">Analytical</a></li>
-                                <li><a href="index3.html">Demographical</a></li>
-                                <li><a href="index4.html">Modern</a></li>
+                                <li><a href="index.html">Ingreso </a></li>
                             </ul>
                         </li>
                     </ul>
@@ -323,7 +319,7 @@
                 <!-- ============================================================== -->
                 <div class="row page-titles">
                     <div class="col-md-5 align-self-center">
-                        <h3 class="text-themecolor">Dashboard 1</h3>
+                        <h3 class="text-themecolor">{% block headers %}{% endblock %}</h3>
                     </div>
                     <div class="col-md-7 align-self-center">
                         <ol class="breadcrumb">
