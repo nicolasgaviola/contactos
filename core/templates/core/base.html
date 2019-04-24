@@ -163,25 +163,25 @@
                                         <div class="message-center">
                                             <!-- Message -->
                                             <a href="#">
-                                                <div class="user-img"> <img src="../assets/images/users/1.jpg" alt="user" class="img-circle"> <span class="profile-status online pull-right"></span> </div>
+                                                <div class="user-img"> <img src="{% static 'core/images/users/1.jpg' %}" alt="user" class="img-circle"> <span class="profile-status online pull-right"></span> </div>
                                                 <div class="mail-contnet">
                                                     <h5>Pavan kumar</h5> <span class="mail-desc">Just see the my admin!</span> <span class="time">9:30 AM</span> </div>
                                             </a>
                                             <!-- Message -->
                                             <a href="#">
-                                                <div class="user-img"> <img src="../assets/images/users/2.jpg" alt="user" class="img-circle"> <span class="profile-status busy pull-right"></span> </div>
+                                                <div class="user-img"> <img src="{% static 'core/images/users/2.jpg' %}" alt="user" class="img-circle"> <span class="profile-status busy pull-right"></span> </div>
                                                 <div class="mail-contnet">
                                                     <h5>Sonu Nigam</h5> <span class="mail-desc">I've sung a song! See you at</span> <span class="time">9:10 AM</span> </div>
                                             </a>
                                             <!-- Message -->
                                             <a href="#">
-                                                <div class="user-img"> <img src="../assets/images/users/3.jpg" alt="user" class="img-circle"> <span class="profile-status away pull-right"></span> </div>
+                                                <div class="user-img"> <img src="{% static 'core/images/users/3.jpg' %}" alt="user" class="img-circle"> <span class="profile-status away pull-right"></span> </div>
                                                 <div class="mail-contnet">
                                                     <h5>Arijit Sinh</h5> <span class="mail-desc">I am a singer!</span> <span class="time">9:08 AM</span> </div>
                                             </a>
                                             <!-- Message -->
                                             <a href="#">
-                                                <div class="user-img"> <img src="../assets/images/users/4.jpg" alt="user" class="img-circle"> <span class="profile-status offline pull-right"></span> </div>
+                                                <div class="user-img"> <img src="{% static 'core/images/users/4.jpg' %}" alt="user" class="img-circle"> <span class="profile-status offline pull-right"></span> </div>
                                                 <div class="mail-contnet">
                                                     <h5>Pavan kumar</h5> <span class="mail-desc">Just see the my admin!</span> <span class="time">9:02 AM</span> </div>
                                             </a>
@@ -208,13 +208,13 @@
                                         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                                             <div class="carousel-inner" role="listbox">
                                                 <div class="carousel-item active">
-                                                    <div class="container"> <img class="d-block img-fluid" src="../assets/images/big/img1.jpg" alt="First slide"></div>
+                                                    <div class="container"> <img class="d-block img-fluid" src="{% static 'core/images/big/img1.jpg' %}" alt="First slide"></div>
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <div class="container"><img class="d-block img-fluid" src="../assets/images/big/img2.jpg" alt="Second slide"></div>
+                                                    <div class="container"><img class="d-block img-fluid" src="{% static 'core/images/big/img2.jpg' %}" alt="Second slide"></div>
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <div class="container"><img class="d-block img-fluid" src="../assets/images/big/img3.jpg" alt="Third slide"></div>
+                                                    <div class="container"><img class="d-block img-fluid" src="{% static 'core/images/big/img3.jpg' %}" alt="Third slide"></div>
                                                 </div>
                                             </div>
                                             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a>
@@ -303,12 +303,12 @@
                         <!-- Profile -->
                         <!-- ============================================================== -->
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle waves-effect waves-dark" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="../assets/images/users/1.jpg" alt="user" class="profile-pic" /></a>
+                            <a class="nav-link dropdown-toggle waves-effect waves-dark" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="{% static 'core/images/users/1.jpg' %}" alt="user" class="profile-pic" /></a>
                             <div class="dropdown-menu dropdown-menu-right animated flipInY">
                                 <ul class="dropdown-user">
                                     <li>
                                         <div class="dw-user-box">
-                                            <div class="u-img"><img src="../assets/images/users/1.jpg" alt="user"></div>
+                                            <div class="u-img"><img src="{% static 'core/images/users/1.jpg' %}" alt="user"></div>
                                             <div class="u-text">
                                                 <h4>Steave Jobs</h4>
                                                 <p class="text-muted">varun@gmail.com</p><a href="pages-profile.html" class="btn btn-rounded btn-danger btn-sm">View Profile</a></div>
@@ -341,7 +341,7 @@
                 <!-- Sidebar navigation-->
                 <nav class="sidebar-nav">
                     <ul id="sidebarnav">
-                        <li class="user-profile"> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><img src="../assets/images/users/profile.png" alt="user" /><span class="hide-menu">Steave Jobs </span></a>
+                        <li class="user-profile"> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><img src="{% static 'core/images/users/profile.png' %}" alt="user" /><span class="hide-menu">Steave Jobs </span></a>
                             <ul aria-expanded="false" class="collapse">
                                 <li><a href="javascript:void()">My Profile </a></li>
                                 <li><a href="javascript:void()">My Balance</a></li>
@@ -634,7 +634,7 @@
                         <div class="card">
                             <div class="card-body">
                                 <div class="d-flex no-block">
-                                    <div class="m-r-20 align-self-center"><span class="lstick m-r-20"></span><img src="../assets/images/icon/income.png" alt="Income" /></div>
+                                    <div class="m-r-20 align-self-center"><span class="lstick m-r-20"></span><img src="{% static 'core/images/icon/income.png' %}" alt="Income" /></div>
                                     <div class="align-self-center">
                                         <h6 class="text-muted m-t-10 m-b-0">Total Income</h6>
                                         <h2 class="m-t-0">953,000</h2></div>
@@ -646,7 +646,7 @@
                         <div class="card">
                             <div class="card-body">
                                 <div class="d-flex no-block">
-                                    <div class="m-r-20 align-self-center"><span class="lstick m-r-20"></span><img src="../assets/images/icon/expense.png" alt="Income" /></div>
+                                    <div class="m-r-20 align-self-center"><span class="lstick m-r-20"></span><img src="{% static 'core/images/icon/expense.png' %}" alt="Income" /></div>
                                     <div class="align-self-center">
                                         <h6 class="text-muted m-t-10 m-b-0">Total Expense</h6>
                                         <h2 class="m-t-0">236,000</h2></div>
@@ -658,7 +658,7 @@
                         <div class="card">
                             <div class="card-body">
                                 <div class="d-flex no-block">
-                                    <div class="m-r-20 align-self-center"><span class="lstick m-r-20"></span><img src="../assets/images/icon/assets.png" alt="Income" /></div>
+                                    <div class="m-r-20 align-self-center"><span class="lstick m-r-20"></span><img src="{% static 'core/images/icon/assets.png' %}" alt="Income" /></div>
                                     <div class="align-self-center">
                                         <h6 class="text-muted m-t-10 m-b-0">Total Assets</h6>
                                         <h2 class="m-t-0">987,563</h2></div>
@@ -706,7 +706,7 @@
                                                 <td>$3.9K</td>
                                             </tr>
                                             <tr class="active">
-                                                <td><span class="round"><img src="../assets/images/users/2.jpg" alt="user" width="50"></span></td>
+                                                <td><span class="round"><img src="{% static 'core/images/users/2.jpg' %}" alt="user" width="50"></span></td>
                                                 <td>
                                                     <h6>Andrew</h6><small class="text-muted">Project Manager</small></td>
                                                 <td>Real Homes</td>
@@ -778,13 +778,13 @@
                                 <div class="card-body">
                                     <!-- Activity item-->
                                     <div class="activity-item">
-                                        <div class="round m-r-20"><img src="../assets/images/users/2.jpg" alt="user" width="50" /></div>
+                                        <div class="round m-r-20"><img src="{% static 'core/images/users/2.jpg' %}" alt="user" width="50" /></div>
                                         <div class="m-t-10">
                                             <h5 class="m-b-0 font-medium">Mark Freeman <span class="text-muted font-14 m-l-10">| &nbsp; 6:30 PM</span></h5>
                                             <h6 class="text-muted">uploaded this file </h6>
                                             <table class="table vm b-0 m-b-0">
                                                 <tr>
-                                                    <td class="m-r-10 b-0"><img src="../assets/images/icon/zip.png" alt="user" /></td>
+                                                    <td class="m-r-10 b-0"><img src="{% static 'core/images/icon/zip.png' %}" alt="user" /></td>
                                                     <td class="b-0">
                                                         <h5 class="m-b-0 font-medium ">Homepage.zip</h5>
                                                         <h6>54 MB</h6></td>
@@ -795,15 +795,15 @@
                                     <!-- Activity item-->
                                     <!-- Activity item-->
                                     <div class="activity-item">
-                                        <div class="round m-r-20"><img src="../assets/images/users/3.jpg" alt="user" width="50" /></div>
+                                        <div class="round m-r-20"><img src="{% static 'core/images/users/3.jpg' %}" alt="user" width="50" /></div>
                                         <div class="m-t-10">
                                             <h5 class="m-b-5 font-medium">Emma Smith <span class="text-muted font-14 m-l-10">| &nbsp; 6:30 PM</span></h5>
                                             <h6 class="text-muted">joined projectname, and invited <a href="javascript:void(0)">@maxcage, @maxcage, @maxcage,<br/> @maxcage, @maxcage,+3</a></h6>
                                             <span class="image-list m-t-10">
-                                                <a href="javascript:void(0)"><img src="../assets/images/users/1.jpg" class="img-circle" alt="user" width="40" /></a>
-                                                <a href="javascript:void(0)"><img src="../assets/images/users/4.jpg" class="img-circle" alt="user" width="40" /></a>
-                                                <a href="javascript:void(0)"><img src="../assets/images/users/5.jpg" class="img-circle" alt="user" width="40" /></a>
-                                                <a href="javascript:void(0)"><img src="../assets/images/users/6.jpg" class="img-circle" alt="user" width="40" /></a>
+                                                <a href="javascript:void(0)"><img src="{% static 'core/images/users/1.jpg' %}" class="img-circle" alt="user" width="40" /></a>
+                                                <a href="javascript:void(0)"><img src="{% static 'core/images/users/4.jpg' %}" class="img-circle" alt="user" width="40" /></a>
+                                                <a href="javascript:void(0)"><img src="{% static 'core/images/users/5.jpg' %}" class="img-circle" alt="user" width="40" /></a>
+                                                <a href="javascript:void(0)"><img src="{% static 'core/images/users/6.jpg' %}" class="img-circle" alt="user" width="40" /></a>
                                                 <a href="javascript:void(0)">+3</a>
                                             </span>
                                         </div>
@@ -814,21 +814,21 @@
                                 <div class="card-body">
                                     <!-- Activity item-->
                                     <div class="activity-item">
-                                        <div class="round m-r-20"><img src="../assets/images/users/4.jpg" alt="user" width="50" /></div>
+                                        <div class="round m-r-20"><img src="{% static 'core/images/users/4.jpg' %}" alt="user" width="50" /></div>
                                         <div class="m-t-10">
                                             <h5 class="m-b-0 font-medium">David R. Jones  <span class="text-muted font-14 m-l-10">| &nbsp; 6:30 PM</span></h5>
                                             <h6 class="text-muted">uploaded this file </h6>
                                             <span>
-                                                <a href="javascript:void(0)" class="m-r-10"><img src="../assets/images/big/img1.jpg" alt="user" width="60"></a>
-                                                <a href="javascript:void(0)" class="m-r-10"><img src="../assets/images/big/img2.jpg" alt="user" width="60"></a>
-                                                <a href="javascript:void(0)" class="m-r-10"><img src="../assets/images/big/img3.jpg" alt="user" width="60"></a>
+                                                <a href="javascript:void(0)" class="m-r-10"><img src="{% static 'core/images/big/img1.jpg' %}" alt="user" width="60"></a>
+                                                <a href="javascript:void(0)" class="m-r-10"><img src="{% static 'core/images/big/img2.jpg' %}" alt="user" width="60"></a>
+                                                <a href="javascript:void(0)" class="m-r-10"><img src="{% static 'core/images/big/img3.jpg' %}" alt="user" width="60"></a>
                                             </span>
                                         </div>
                                     </div>
                                     <!-- Activity item-->
                                     <!-- Activity item-->
                                     <div class="activity-item">
-                                        <div class="round m-r-20"><img src="../assets/images/users/6.jpg" alt="user" width="50" /></div>
+                                        <div class="round m-r-20"><img src="{% static 'core/images/users/6.jpg' %}" alt="user" width="50" /></div>
                                         <div class="m-t-10">
                                             <h5 class="m-b-5 font-medium">David R. Jones <span class="text-muted font-14 m-l-10">| &nbsp; 6:30 PM</span></h5>
                                             <h6 class="text-muted">Commented on<a href="javascript:void(0)">Test Project</a></h6>
@@ -838,15 +838,15 @@
                                     <!-- Activity item-->
                                     <!-- Activity item-->
                                     <div class="activity-item">
-                                        <div class="round m-r-20"><img src="../assets/images/users/7.jpg" alt="user" width="50" /></div>
+                                        <div class="round m-r-20"><img src="{% static 'core/images/users/7.jpg' %}" alt="user" width="50" /></div>
                                         <div class="m-t-10">
                                             <h5 class="m-b-0 font-medium">David R. Jones  <span class="text-muted font-14 m-l-10">| &nbsp; 6:30 PM</span></h5>
                                             <h6 class="text-muted">uploaded this file </h6>
                                             <p>It has survived not only five centuries</p>
                                             <span>
-                                                <a href="javascript:void(0)" class="m-r-10"><img src="../assets/images/big/img5.jpg" alt="user" width="60"></a>
-                                                <a href="javascript:void(0)" class="m-r-10"><img src="../assets/images/big/img6.jpg" alt="user" width="60"></a>
-                                                <a href="javascript:void(0)" class="m-r-10"><img src="../assets/images/big/img4.jpg" alt="user" width="60"></a>
+                                                <a href="javascript:void(0)" class="m-r-10"><img src="{% static 'core/images/big/img5.jpg' %}" alt="user" width="60"></a>
+                                                <a href="javascript:void(0)" class="m-r-10"><img src="{% static 'core/images/big/img6.jpg' %}" alt="user" width="60"></a>
+                                                <a href="javascript:void(0)" class="m-r-10"><img src="{% static 'core/images/big/img4.jpg' %}" alt="user" width="60"></a>
                                             </span>
                                         </div>
                                     </div>
@@ -859,7 +859,7 @@
                     <div class="col-lg-5 col-xlg-4">
                         <div class="card">
                             <div class="card-body little-profile text-center">
-                                <div class="pro-img m-t-20"><img src="../assets/images/users/4.jpg" alt="user"></div>
+                                <div class="pro-img m-t-20"><img src="{% static 'core/images/users/4.jpg' %}" alt="user"></div>
                                 <h3 class="m-b-0">Angela Dominic</h3>
                                 <h6 class="text-muted">Web Designer &amp; Developer</h6>
                                 <ul class="list-inline soc-pro m-t-30">
@@ -901,13 +901,13 @@
                                     <div class="message-widget contact-widget">
                                         <!-- Message -->
                                         <a href="#">
-                                            <div class="user-img"> <img src="../assets/images/users/1.jpg" alt="user" class="img-circle"> <span class="profile-status online pull-right"></span> </div>
+                                            <div class="user-img"> <img src="{% static 'core/images/users/1.jpg' %}" alt="user" class="img-circle"> <span class="profile-status online pull-right"></span> </div>
                                             <div class="mail-contnet">
                                                 <h5>Pavan kumar</h5> <span class="mail-desc">info@wrappixel.com</span></div>
                                         </a>
                                         <!-- Message -->
                                         <a href="#">
-                                            <div class="user-img"> <img src="../assets/images/users/2.jpg" alt="user" class="img-circle"> <span class="profile-status busy pull-right"></span> </div>
+                                            <div class="user-img"> <img src="{% static 'core/images/users/2.jpg' %}" alt="user" class="img-circle"> <span class="profile-status busy pull-right"></span> </div>
                                             <div class="mail-contnet">
                                                 <h5>Sonu Nigam</h5> <span class="mail-desc">pamela1987@gmail.com</span></div>
                                         </a>
@@ -919,7 +919,7 @@
                                         </a>
                                         <!-- Message -->
                                         <a href="#">
-                                            <div class="user-img"> <img src="../assets/images/users/4.jpg" alt="user" class="img-circle"> <span class="profile-status offline pull-right"></span> </div>
+                                            <div class="user-img"> <img src="{% static 'core/images/users/4.jpg' %}" alt="user" class="img-circle"> <span class="profile-status offline pull-right"></span> </div>
                                             <div class="mail-contnet">
                                                 <h5>Pavan kumar</h5> <span class="mail-desc">kat@gmail.com</span></div>
                                         </a>
@@ -1043,10 +1043,10 @@
                                                 <label for="inputSchedule" class=""> <span>Schedule meeting with</span> <span class="label label-rounded label-danger pull-right">Today</span></label>
                                             </div>
                                             <ul class="assignedto">
-                                                <li><img src="../assets/images/users/1.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Steave"></li>
-                                                <li><img src="../assets/images/users/2.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Jessica"></li>
-                                                <li><img src="../assets/images/users/3.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Priyanka"></li>
-                                                <li><img src="../assets/images/users/4.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Selina"></li>
+                                                <li><img src="{% static 'core/images/users/1.jpg' %}" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Steave"></li>
+                                                <li><img src="{% static 'core/images/users/2.jpg' %}" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Jessica"></li>
+                                                <li><img src="{% static 'core/images/users/3.jpg' %}" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Priyanka"></li>
+                                                <li><img src="{% static 'core/images/users/4.jpg' %}" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Selina"></li>
                                             </ul>
                                         </li>
                                         <li class="list-group-item" data-role="task">
@@ -1055,8 +1055,8 @@
                                                 <label for="inputCall" class=""> <span>Give Purchase report to</span> <span class="label label-info label-rounded pull-right">Yesterday</span> </label>
                                             </div>
                                             <ul class="assignedto">
-                                                <li><img src="../assets/images/users/3.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Priyanka"></li>
-                                                <li><img src="../assets/images/users/4.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Selina"></li>
+                                                <li><img src="{% static 'core/images/users/3.jpg' %}" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Priyanka"></li>
+                                                <li><img src="{% static 'core/images/users/4.jpg' %}" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Selina"></li>
                                             </ul>
                                         </li>
                                         <li class="list-group-item" data-role="task">
@@ -1079,9 +1079,9 @@
                                                 <label for="inputForward2" class=""> <span>Important tasks</span> <span class="label label-success label-rounded pull-right">2 weeks</span> </label>
                                             </div>
                                             <ul class="assignedto">
-                                                <li><img src="../assets/images/users/1.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Assign to Steave"></li>
-                                                <li><img src="../assets/images/users/2.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Assign to Jessica"></li>
-                                                <li><img src="../assets/images/users/4.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Assign to Selina"></li>
+                                                <li><img src="{% static 'core/images/users/1.jpg' %}" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Assign to Steave"></li>
+                                                <li><img src="{% static 'core/images/users/2.jpg' %}" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Assign to Jessica"></li>
+                                                <li><img src="{% static 'core/images/users/4.jpg' %}" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Assign to Selina"></li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -1091,9 +1091,9 @@
                     </div>
                     <div class="col-lg-4 col-xlg-3">
                         <div class="card">
-                            <img class="card-img-top img-responsive" src="../assets/images/big/img1.jpg" alt="Card image cap">
+                            <img class' %}="card-img-top img-responsive" src="{% static 'core/images/big/img1.jpg' %}" alt="Card image cap">
                             <div class="card-body">
-                                <h3 class="font-normal">Featured Hydroflora Pots Garden &amp; Outdoors</h3>
+                                <h3 class' %}="font-normal">Featured Hydroflora Pots Garden &amp; Outdoors</h3>
                                 <span class="label label-info label-rounded">Technology</span>
                                 <p class="m-b-0 m-t-20">Titudin venenatis ipsum aciat. Vestibulum ullamcorper quam. nenatis ipsum ac feugiat. Ibulum ullamcorper</p>
                                 <div class="d-flex m-t-20">
@@ -1152,7 +1152,7 @@
                                         <span class="dwn-aro"></span>
                                     </div>
                                     <div class="m-t-20 d-flex">
-                                        <div class="m-pic m-r-20"><img src="../assets/images/users/profile.png" alt="user"></div>
+                                        <div class="m-pic m-r-20"><img src="{% static 'core/images/users/profile.png' %}" alt="user"></div>
                                         <div class="author">
                                             <h5 class="m-b-0">Mark Freeman</h5>
                                             <p class="text-muted font-14">Today 04:12 PM</p>
@@ -1166,7 +1166,7 @@
                                         <span class="dwn-aro"></span>
                                     </div>
                                     <div class="m-t-20 d-flex">
-                                        <div class="m-pic m-r-20"><img src="../assets/images/users/4.jpg" alt="user"></div>
+                                        <div class="m-pic m-r-20"><img src="{% static 'core/images/users/4.jpg' %}" alt="user"></div>
                                         <div class="author">
                                             <h5 class="m-b-0">Mark Freeman</h5>
                                             <p class="text-muted font-14">Today 04:12 PM</p>
@@ -1180,7 +1180,7 @@
                                         <span class="dwn-aro"></span>
                                     </div>
                                     <div class="m-t-20 d-flex">
-                                        <div class="m-pic m-r-20"><img src="../assets/images/users/2.jpg" alt="user"></div>
+                                        <div class="m-pic m-r-20"><img src="{% static 'core/images/users/2.jpg' %}" alt="user"></div>
                                         <div class="author">
                                             <h5 class="m-b-0">Mark Freeman</h5>
                                             <p class="text-muted font-14">Today 04:12 PM</p>
@@ -1269,28 +1269,28 @@
                             <ul class="m-t-20 chatonline">
                                 <li><b>Chat option</b></li>
                                 <li>
-                                    <a href="javascript:void(0)"><img src="../assets/images/users/1.jpg" alt="user-img" class="img-circle"> <span>Varun Dhavan <small class="text-success">online</small></span></a>
+                                    <a href="javascript:void(0)"><img src="{% static 'core/images/users/1.jpg' %}" alt="user-img" class="img-circle"> <span>Varun Dhavan <small class="text-success">online</small></span></a>
                                 </li>
                                 <li>
-                                    <a href="javascript:void(0)"><img src="../assets/images/users/2.jpg" alt="user-img" class="img-circle"> <span>Genelia Deshmukh <small class="text-warning">Away</small></span></a>
+                                    <a href="javascript:void(0)"><img src="{% static 'core/images/users/2.jpg' %}" alt="user-img" class="img-circle"> <span>Genelia Deshmukh <small class="text-warning">Away</small></span></a>
                                 </li>
                                 <li>
-                                    <a href="javascript:void(0)"><img src="../assets/images/users/3.jpg" alt="user-img" class="img-circle"> <span>Ritesh Deshmukh <small class="text-danger">Busy</small></span></a>
+                                    <a href="javascript:void(0)"><img src="{% static 'core/images/users/3.jpg' %}" alt="user-img" class="img-circle"> <span>Ritesh Deshmukh <small class="text-danger">Busy</small></span></a>
                                 </li>
                                 <li>
-                                    <a href="javascript:void(0)"><img src="../assets/images/users/4.jpg" alt="user-img" class="img-circle"> <span>Arijit Sinh <small class="text-muted">Offline</small></span></a>
+                                    <a href="javascript:void(0)"><img src="{% static 'core/images/users/4.jpg' %}" alt="user-img" class="img-circle"> <span>Arijit Sinh <small class="text-muted">Offline</small></span></a>
                                 </li>
                                 <li>
-                                    <a href="javascript:void(0)"><img src="../assets/images/users/5.jpg" alt="user-img" class="img-circle"> <span>Govinda Star <small class="text-success">online</small></span></a>
+                                    <a href="javascript:void(0)"><img src="{% static 'core/images/users/5.jpg' %}" alt="user-img" class="img-circle"> <span>Govinda Star <small class="text-success">online</small></span></a>
                                 </li>
                                 <li>
-                                    <a href="javascript:void(0)"><img src="../assets/images/users/6.jpg" alt="user-img" class="img-circle"> <span>John Abraham<small class="text-success">online</small></span></a>
+                                    <a href="javascript:void(0)"><img src="{% static 'core/images/users/6.jpg' %}" alt="user-img" class="img-circle"> <span>John Abraham<small class="text-success">online</small></span></a>
                                 </li>
                                 <li>
-                                    <a href="javascript:void(0)"><img src="../assets/images/users/7.jpg" alt="user-img" class="img-circle"> <span>Hritik Roshan<small class="text-success">online</small></span></a>
+                                    <a href="javascript:void(0)"><img src="{% static 'core/images/users/7.jpg" alt="user-img" class="img-circle"> <span>Hritik Roshan<small class="text-success">online</small></span></a>
                                 </li>
                                 <li>
-                                    <a href="javascript:void(0)"><img src="../assets/images/users/8.jpg" alt="user-img" class="img-circle"> <span>Pwandeep rajan <small class="text-success">online</small></span></a>
+                                    <a href="javascript:void(0)"><img src="{% static 'core/images/users/8.jpg" alt="user-img" class="img-circle"> <span>Pwandeep rajan <small class="text-success">online</small></span></a>
                                 </li>
                             </ul>
                         </div>
